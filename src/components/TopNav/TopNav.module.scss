@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:#F6F5F0;
+
+    
+    .logo{
+        font-family: 'Dancing Script', cursive;
+        font-size: 16px;
+    }
+    .menu{
+        display: flex;
+            li{
+                display: block;
+                padding-right: 30px;
+                font-size: 13px;
+                color: #797975;
+                cursor: pointer;
+
+                &:last-child{
+                    padding-right: 0;
+                }
+                
+            }
+            
+   }
+
+}
