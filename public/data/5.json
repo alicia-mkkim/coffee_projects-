@@ -1,0 +1,49 @@
+{
+  "id": 5,
+  "name": "벨벳 다크 모카 나이트로",
+  "engName": "Velvet Dark Mocha Nitro",
+  "description": "부드러운 목넘김의 나이트로 커피와 바닐라 크림의 매력을 한번에 느껴보세요!",
+  "imageURL":"https://images.unsplash.com/photo-1512568400610-62da28bc8a13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+  "nutritionInfo": [
+    {
+      "name": "1회 제공량 (kcal)",
+      "percent": 345
+    },
+    {
+      "name": "나트륨 (mg)",
+      "percent": "150"
+    },
+    {
+      "name": "포화지방 (g)",
+      "percent": 11
+    },
+    {
+      "name": "당류 (g)",
+      "percent": 35
+    },
+    {
+      "name": "단백질 (g)",
+      "percent": 11
+    },
+    {
+      "name": "카페인 (mg)",
+      "percent": 75
+    }
+  ],
+
+  "allergy": ["우유"],
+  "review": [
+    {
+      "userId": "coffee-lover",
+      "comment": "너무 맛있어요!"
+    },
+    {
+      "userId": "CHOCO7",
+      "comment": "오늘도 화이트 초콜릿 모카를 마시러 갑니다!"
+    },
+    {
+      "userId": "legend_dev",
+      "comment": "진짜 화이트 초콜릿 모카는 전설이다. 진짜 화이트 초콜릿 모카는 전설이다. 진짜 화이트 초..."
+    }
+  ]
+}
