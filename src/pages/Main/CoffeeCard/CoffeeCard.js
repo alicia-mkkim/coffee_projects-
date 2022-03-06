@@ -1,12 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from '../CoffeeCard/CoffeeCard.module.scss';
-import { useState, useEffect } from 'react';
 
 function CoffeeCard({ list }) {
-    console.log(list);
+  const navigate = useNavigate();
+
   return (
     <article className={styles.coffeeContents}>
-      <div className={styles.coffeeItem}>
+      <div className={styles.coffeeItem} onClick={() => {navigate(`/detail/${list.id}`)}}>
         <div className={styles.coffeeImgbox}>
           <img
             alt={list.name}
