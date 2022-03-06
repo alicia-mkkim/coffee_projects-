@@ -11,7 +11,6 @@ function Login() {
     });
 
     const { email, password } = inputs;
-    const { onSubmit , setOnSubmit } = useState('')
 
     const handleInput = (event) => {  
         const { value , name } = event.target;
@@ -20,12 +19,6 @@ function Login() {
             [name]: value,
         });
 
-        console.log(inputs)
-    }
-
-    const goToMain = (data) => {
-
-        data.email.includes('@') && data.password.length >= 7? navigate('/main') : alert('이메일형식에 @가 들어가있나요? / 비밀번호 7자이상인가요?')
     }
 
 
@@ -37,7 +30,7 @@ function Login() {
                 <input  onChange={handleInput} value={email || ""} name="email" className={styles.email} type="text" placeholder="Enter your email" />
                 <input  onChange={handleInput} value={password} name="password" className={styles.password} type="password" placeholder="Password" />
             </section>     
-            <button className={styles.loginBtn} type="submit" onClick={() => {goToMain(inputs)}}>Login</button>
+            <button className={styles.loginBtn} type="submit" onClick={() => {}}>Login</button>
             <Link to="/" className={styles.forgetPW} >Forget Password?</Link>
         </div>
     </main>
